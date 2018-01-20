@@ -1,0 +1,15 @@
+---
+title: "Notes on creating this site"
+author: "Elisha Cohen"
+date: 2018-01-19
+categories: ["R"]
+tags: ["R", "blogdown", "hugo"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Installing Hugo
+
+Don't use the instructions -- this installs a submodule that just confuses things. Follow the directions in the `blogdown` documentation.
