@@ -38,14 +38,19 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>/tags/blogdown/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+=======
+    <loc>/categories/</loc>
+>>>>>>> 647c96207b5cb0302a5b910986f4b147755a6495
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/</loc>
+    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
