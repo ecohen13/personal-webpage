@@ -12,4 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Installing Hugo
 
-Don't use the instructions -- this installs a submodule that just confuses things. Follow the directions in the `blogdown` documentation.
+Don't use the instructions on the theme webpage -- this installs a submodule that just confuses things. Follow the directions in the `blogdown` documentation.
+
+I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
