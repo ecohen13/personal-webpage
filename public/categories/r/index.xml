@@ -17,8 +17,10 @@
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-01-19-site-notes/</guid>
-      <description>Installing Hugo Don’t use the instructions – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
- </description>
+      <description>Installing Hugo Don’t use the instructions on the theme webpage – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
+I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
+ Making changes/ Creating posts Once changes are complete:
+ build website in RStudio. I’ve been using the Build Website icon on the Build panel (blogdown::build_site() should do the same thing).</description>
     </item>
     
     <item>

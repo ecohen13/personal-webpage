@@ -23,8 +23,10 @@
     
 
     <meta property="og:title" content="Notes on creating this site" />
-<meta property="og:description" content="Installing Hugo Don’t use the instructions – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
- " />
+<meta property="og:description" content="Installing Hugo Don’t use the instructions on the theme webpage – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
+I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
+ Making changes/ Creating posts Once changes are complete:
+ build website in RStudio. I’ve been using the Build Website icon on the Build panel (blogdown::build_site() should do the same thing)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/2018-01-19-site-notes/" />
 
@@ -45,20 +47,24 @@
 
 
 <meta itemprop="name" content="Notes on creating this site">
-<meta itemprop="description" content="Installing Hugo Don’t use the instructions – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
- ">
+<meta itemprop="description" content="Installing Hugo Don’t use the instructions on the theme webpage – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
+I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
+ Making changes/ Creating posts Once changes are complete:
+ build website in RStudio. I’ve been using the Build Website icon on the Build panel (blogdown::build_site() should do the same thing).">
 
 
 <meta itemprop="datePublished" content="2018-01-19T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-01-19T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="22">
+<meta itemprop="wordCount" content="141">
 
 
 
 <meta itemprop="keywords" content="R,blogdown,hugo," />
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Notes on creating this site"/>
-<meta name="twitter:description" content="Installing Hugo Don’t use the instructions – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
- "/>
+<meta name="twitter:description" content="Installing Hugo Don’t use the instructions on the theme webpage – this installs a submodule that just confuses things. Follow the directions in the blogdown documentation.
+I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
+ Making changes/ Creating posts Once changes are complete:
+ build website in RStudio. I’ve been using the Build Website icon on the Build panel (blogdown::build_site() should do the same thing)."/>
 
   </head>
 
@@ -129,7 +135,19 @@
       <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray">
         <div id="installing-hugo" class="section level2">
 <h2>Installing Hugo</h2>
-<p>Don’t use the instructions – this installs a submodule that just confuses things. Follow the directions in the <code>blogdown</code> documentation.</p>
+<p>Don’t use the instructions on the theme webpage – this installs a submodule that just confuses things. Follow the directions in the <code>blogdown</code> documentation.</p>
+<p>I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.</p>
+</div>
+<div id="making-changes-creating-posts" class="section level2">
+<h2>Making changes/ Creating posts</h2>
+<p>Once changes are complete:</p>
+<ul>
+<li><p>build website in RStudio. I’ve been using the Build Website icon on the Build panel (<code>blogdown::build_site()</code> should do the same thing). I think this isn’t always necessary. For example, if you’re just updating an .Rmd file. But if something in the config.toml file or overarching structure has changed then the site needs to be rebuilt.</p></li>
+<li><p>Git Pull to check that the branch is up to date.</p></li>
+<li><p>Git Commit the changes</p></li>
+<li><p>Git Push</p></li>
+</ul>
+<p>Website is automatically deployed from github to netlify so changes should be visible quickly.</p>
 </div>
 
       </section>

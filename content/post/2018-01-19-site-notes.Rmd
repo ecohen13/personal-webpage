@@ -15,3 +15,17 @@ knitr::opts_chunk$set(echo = TRUE)
 Don't use the instructions on the theme webpage -- this installs a submodule that just confuses things. Follow the directions in the `blogdown` documentation.
 
 I also adjusted the size of my image to be similar to the example image. Not sure if this is necessary.
+
+## Making changes/ Creating posts
+
+Once changes are complete:
+
+  - build website in RStudio. I've been using the Build Website icon on the Build panel (`blogdown::build_site()` should do the same thing). I think this isn't always necessary. For example, if you're just updating an .Rmd file. But if something in the config.toml file or overarching structure has changed then the site needs to be rebuilt.
+  
+  - Git Pull to check that the branch is up to date.
+  
+  - Git Commit the changes
+  
+  - Git Push
+  
+Website is automatically deployed from github to netlify so changes should be visible quickly.
